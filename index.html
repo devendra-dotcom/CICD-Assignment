@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Life Care Animal Welfare</title>
+  
+  <link rel="stylesheet" href="style.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+
+
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+  <script src="app.js"></script>
+
+
+  <!-- HEADER -->
+ <header>
+  <div class="nav-container">
+    <!-- Logo + Title -->
+    <div class="logo-container">
+      <img src="images/logo.png" alt="Life Care Animal Welfare" class="logo">
+      <span class="site-title">Life Care Animal Welfare</span>
+    </div>
+
+    <div class="right-actions">
+      <!-- <div class="menu-toggle" id="menu-toggle">☰</div> -->
+      <button class="menu-toggle">☰</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about" class="active">About</a>
+      <a href="#events" class="active">Events</a>
+      <a href="#join" class="active">Join</a>
+      <a href="donate.html" class="active">Donate</a>
+    </nav>
+
+  </div>
+</header>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.querySelector(".menu-toggle");
+  const nav = document.querySelector("nav");
+
+  menuToggle.addEventListener("click", function () {
+    nav.classList.toggle("show");
+  });
+});
+</script>
+
+
+
+  <!-- HOME SECTION -->
+  <section id="home">
+
+
+  <section class="hero">
+    <div class="slide" style="background-image: url('images/background_image_dog1.jpg');"></div>
+    <div class="slide" style="background-image: url('images/background_image_dog2.jpg');"></div>
+    <div class="slide" style="background-image: url('images/background_image_dog3.jpg');"></div>
+    <div class="slide" style="background-image: url('images/background_image_dog4.jpg');"></div>
+    <div class="slide" style="background-image: url('images/bg_img_cat1.jpg');"></div>
+    <div class="slide" style="background-image: url('images/bg_img_cow.jpg');"></div>
+    <div class="slide" style="background-image: url('images/bk_img_dog5.jpg');"></div>
+
+
+    <div class="hero-content">
+      <h2>Every Life Matters ❤️</h2>
+      <p>We rescue, feed, and protect voiceless souls every day. Join us in making a difference.</p>
+      <div class="cta-buttons">
+        <a href="https://chat.whatsapp.com/EbxmrSCYdnR5cNZyyhHwhg" class="btn">📲 Join Our WhatsApp Group</a>
+        <a href="donate.html" class="btn btn-outline">💖 Donate Now</a>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+
+ 
+  
+
+    <!-- MISSION -->
+    <section class="mission">
+      <div class="mission-overlay">
+        <div class="mission-content">
+          <h2>Our Mission</h2>
+          <p>
+            Life Care Animal Welfare is a non-profit dedicated to rescuing, feeding, and protecting stray and injured animals.  
+            Every day, we work to give them love, care, and a second chance at life.
+          </p>
+    
+          <div class="mission-stats">
+            <div class="stat">
+              🐶 <span>200+</span> Animals Rescued
+            </div>
+            <div class="stat">
+              🍲 <span>15,000+</span> Meals Served
+            </div>
+            <div class="stat">
+              🏥 <span>120+</span> Medical Treatments
+            </div>
+            <div class="stat">
+              🏡 <span>80+</span> Adoptions
+            </div>
+          </div>
+    
+          <!-- <div class="mission-buttons">
+            <a href="https://chat.whatsapp.com/yourgroup" target="_blank" class="btn">📲 Join Our WhatsApp Group</a>
+            <a href="donate.html" class="btn btn-outline">💖 Donate Now</a>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- GALLERY -->
+    <section class="gallery">
+      <h2>Our Work in Action 🐾</h2>
+      <p>From rescues to adoptions — here are some beautiful moments from our journey.</p>
+    
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/bk_img_dog5.jpg" alt="Dog Rescue">
+          <p class="caption">A happy rescue dog finally safe and loved 🐶</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/bg_img_cow.jpg" alt="Volunteer Feeding">
+          <p class="caption">A happy rescue dog finally safe and loved 🐶</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/background_image_dog3.jpg" alt="Adoption Event">
+          <p class="caption">A happy rescue dog finally safe and loved 🐶</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/bg_img_dog6.jpg" alt="Injured Cat Recovery">
+          <p class="caption">A happy rescue dog finally safe and loved 🐶</p>
+        </div>
+      </div>
+    </section>
+    
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about-section">
+    <div class="about-container">
+      <!-- Image Column -->
+      <!-- <div class="about-image">
+        <img src="images/background_image_dog3.jpg" alt="Rescuing Animals">
+      </div> -->
+  
+      <!-- Text Column -->
+      <div class="about-text">
+        <h2>About Us 🐾</h2>
+        <p>
+          <strong>Life Care Animal Welfare</strong> is a community-driven NGO founded with one simple belief: 
+          <em>Every life matters.</em> Based in Chhatrapati Sambhajinagar, we dedicate our time, love, and energy 
+          to rescuing, feeding, and rehabilitating injured and stray animals.
+        </p>
+  
+        <blockquote>
+          “Since 2017, we’ve rescued 1000+ animals, hosted free vaccination camps, and raised awareness about kindness.”
+        </blockquote>
+  
+        <p>
+          Our journey began when <strong>Jayesh Shinde</strong> saw a helpless puppy left on the street. That moment turned 
+          into a mission — building a compassionate team of volunteers committed to making a difference.
+        </p>
+  
+        <p>
+          Change starts small — with a bowl of food, a gentle hand, or a safe shelter. Together, we can be the voice 
+          for the voiceless. 💖
+        </p>
+  
+        <a href="#join" class="btn">Join Us</a>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <!-- Events Section -->
+  <!-- <section id="events">
+    <h2>Our Events</h2>
+    <p>We organize rescue operations, vaccination drives, and awareness campaigns.</p>
+   
+  </section> -->
+
+  <!-- Join Section -->
+  <section id="join" class="join-section">
+    <div class="join-container">
+      <h2>Join Our WhatsApp Family</h2>
+      <p>Connect with animal lovers, get updates, and join rescue efforts — all in one group!</p>
+      <a href="https://chat.whatsapp.com/examplelink" target="_blank" class="btn-join">
+        📲 Join Now
+      </a>
+    </div>
+  </section>
+  
+
+
+
+
+
+
+
+
+  
+  <!-- Donate Section -->
+
+
+
+  <section class="donation-reminder">
+    <p>💖 Remember, even a small donation can bring food, shelter, and hope to a life in need. Your kindness matters more than you know.</p>
+    <a href="donate.html" class="donate-btn">Donate Now</a>
+  </section>
+  
+
+  <!-- <section class="donate-section">
+    <div class="donate-container">
+      <h2>Support Our Cause</h2>
+      <p>Your donation helps us rescue and care for animals in need.</p>
+
+      <div class="donate-card">
+        <img src="qr-code.png" alt="Donate via QR" class="qr-code" />
+        <p class="upi-label">Scan to Donate via UPI</p>
+        <p class="upi-id"><strong>UPI ID:</strong> lifecare@upi</p>
+      </div>
+
+      <a href="index.html" class="back-btn">⬅ Back to Home</a>
+    </div>
+  </section> -->
+  
+
+
+
+
+
+  <footer>
+    <div class="footer-container">
+        <h3>About Us</h3>
+        <p>Life Care Animal Welfare is dedicated to rescuing, rehabilitating, and protecting animals in need. We strive to create a compassionate world where every animal is safe, loved, and cared for.</p>
+
+        <h3>Contact Us</h3>
+        <p>Email: <a href=""> lifecareanimalwelfare@gmail.com</a></p>
+        <p>Phone: <a href="tel:+919876543210">+91 9876543210</a></p>
+
+
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+
+        <p class="copyright">
+            © 2025 Life Care Animal Welfare | All Rights Reserved
+        </p>
+    </div>
+</footer>
+
+
+
+
+
+
+
+</body>
+</html>
